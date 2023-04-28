@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/background"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YOUR"
+        android:textColor="#294F91"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:padding="10dp"
+        android:background="@color/textBlue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="10sp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTES"
+        android:textColor="#294F91"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calenderbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH DATE"
+        android:layout_margin="6sp"
+        android:backgroundTint="@color/textBlue"
+        />
+
+    <TextView
+        android:id="@+id/tvSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14/9/2020"
+        android:textColor="#294F91"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textColor="#294F91"
+        android:textSize="19dp"
+         />
+
+    <TextView
+        android:id="@+id/MinutesDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="146474744"
+        android:textColor="#294F91"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Minutes till Date"
+        android:textColor="#294F91"
+        android:textSize="19dp"
+        />
+</LinearLayout>
